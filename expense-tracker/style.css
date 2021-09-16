@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkseagreen;
+    font-family: 'Urbanist', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container{
+    width: 350px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.income-expense{
+    display: flex;
+    background-color: white;
+}
+
+.income-expense-el{
+    border: 1px solid black;
+    width: 175px;
+}
+
+.history-list_elem{
+    border: 1px solid black;
+    text-align: left;
+    padding: 7px;
+    background-color: white;
+    margin: 7px 0;
+    position: relative;
+}
+
+.history-list_elem span{
+    float: right;
+    margin-right: 5px;
+}
+
+.transaction-input, .add-btn{
+    width: 350px;
+    height: 30px;
+}
+
+
+.add-btn{
+    margin-top: 10px;
+    background-color: #036837;
+    color: white;
+
+}
+
+.history h4, .new-transaction h4 {
+    border-bottom: 1px solid dimgrey;
+}
+
+.income .money {
+    color: #00b55e;
+}
+
+.expense .money {
+    color: #C0392B;
+}
+
+.history-list_elem .plus {
+    color: #00b55e;
+}
+
+.history-list_elem .minus {
+    color: #C0392B;
+}
+
+.new-transaction{
+    text-align: left;
+}
+
+.remove {
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    transform: translate(-100%, -50%);
+    transition: opacity 0.3s;
+}
+
+.history-list li:hover .remove {
+    opacity: 1;
+}

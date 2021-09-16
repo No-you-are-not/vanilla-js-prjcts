@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <h1>Expense tracker</h1>
+    </header>
+    <div class="balance">
+        <h3>Your balance</h3>
+        <h2 id="total-balance">$0.00</h2>
+    </div>
+    <div class="income-expense">
+        <div class="income income-expense-el">
+            <h4>INCOME</h4>
+            <h3 class="money" id="income">$0.00</h3>
+        </div>
+        <div class="expense income-expense-el">
+            <h4>EXPENSE</h4>
+            <h3 class="money" id="expense">$0.00</h3>
+        </div>
+    </div>
+    <div class="history">
+        <h4>History</h4>
+        <ul class="history-list" id="history-list">
+        </ul>
+    </div>
+    <div class="new-transaction">
+        <h4>Add new transaction </h4>
+        <form id="form">
+            <label for="text">Text:</label>
+            <p><input id="text" type="text" name="text" class="transaction-input"></p>
+            <label for="amount">Amount:</label>
+            <p><input id="amount" type="number" name="amount" class="transaction-input"></p>
+            <button class="add-btn" id="add-btn" type="submit">Add transaction</button>
+        </form>
+    </div>
+
+</div>
+
+<script rel="script" src="main.js"></script>
+</body>
+</html>

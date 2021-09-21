@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+
+input{
+    all: unset;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header{
+    text-align: center;
+    padding: 40px;
+    height: 200px;
+    /*border: 1px solid white;*/
+    background-color: lightcoral;
+    color: white;
+}
+
+.header input{
+    margin: 30px auto;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: dimgrey;
+    text-align: left;
+    padding: 0 10px 0 20px;
+}
+
+.header button{
+background-color: dimgrey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#Search::-webkit-search-cancel-button{
+    position:relative;
+    right:10px;
+
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    border-radius:5px;
+    background: dimgrey;
+}
+
+.container{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.song{
+    border: 1px solid lightcoral;
+    display: flex;
+    padding: 9px 7px;
+    margin: 2px;
+}
+
+.songNameAuthor{
+    width: 85%;
+   padding: 5px 0;
+}
+
+.getBtn{
+    background-color: dimgrey;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    font-size: 13px;
+}
+
+b{
+    font-weight: 900;
+}

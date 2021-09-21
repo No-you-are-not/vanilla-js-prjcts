@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Serif', serif;
+    background-color: #23232F;
+    color: white;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container{
+    width: 500px;
+    margin: 100px auto;
+}
+
+.movie-list{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.movie-list select{
+    font: inherit;
+    border-radius: 4px;
+    width: 170px;
+    height: 30px;
+}
+
+.cinema-hall{
+    width: 200px;
+    margin: auto;
+}
+
+.screen{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 0 15px white;
+    margin: 20px auto;
+}
+
+.seat, .seat-example{
+    width: 15px;
+    height: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #40454F;
+    margin: 2px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row div{
+    cursor: pointer;
+}
+
+.final-info{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.seats-types{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seats-types div{
+    display: flex;
+}
+
+.occupied{
+    background-color: white;
+}
+
+.selected{
+    background-color: #7694D0;
+}
+
+.final-info span{
+    color: #7694D0;
+}

@@ -1,9 +1,9 @@
 # Vanilla js projects:
-* expance tracker
+* expense tracker
 * movie seat picker
 
-## Expance tracker
-Expence tracker app was created to help a person to keep track of all the income and expence money.
+## Expense tracker
+Expense tracker app was created to help a person to keep track of all the income and expence money.
 
 ### Functionality that was created:
 * addind a new transaction (user has to enter positive number to display income and negative number to display expance)

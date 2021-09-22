@@ -24,4 +24,15 @@ Adding expence
 
 ![image](https://user-images.githubusercontent.com/74618788/134356046-3e01e91b-7769-4e18-9ae2-c15aa35a7964.png)
 
+Deleting transaction
+You can delete transaction by hovering over chosen transaction and pressing X button
+
+![image](https://user-images.githubusercontent.com/74618788/134356928-eb0093a2-4ade-4aa5-8483-b238c94a4e33.png)
+
+### Technology stack 
+* javascript
+* html
+* css
+* local storage
+
 

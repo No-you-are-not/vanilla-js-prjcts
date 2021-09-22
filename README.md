@@ -10,7 +10,7 @@ Expence tracker app was created to help a person to keep track of all the income
 * deleting transaction
 * total balance, income and expence fields update
 * storing transactions in local storage
-* 
+
 ### Interface
 ![image](https://user-images.githubusercontent.com/74618788/134355070-33853b60-949e-435c-b1a2-3f8f953a3d81.png)
 

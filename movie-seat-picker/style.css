@@ -93,3 +93,19 @@ button {
 .final-info span{
     color: #7694D0;
 }
+
+.checkout{
+    text-align: center;
+}
+
+.checkout button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.checkout button:hover{
+    box-shadow: 0 0 20px 2px white;
+    transition: 0.5s;
+}

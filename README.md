@@ -1,3 +1,5 @@
-# vanilla-js-prjcts
+# Vanilla js projects:
 * expance tracker
 * movie seat picker
+
+## Expance tracker
